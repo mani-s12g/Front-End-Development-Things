@@ -23,7 +23,7 @@ Read till end.
   templates for typography, forms, buttons, navigation, and other interface components.
  * All of the above Games functions are coded in Javascript. 
  
- # I have Done this Webpage to show my work on Front-end Web development and Javascript with which I created a Fully Responsive Webpage.
+ ## I have Done this Webpage to show my work on Front-end Web development and Javascript with which I created a Fully Responsive Webpage.
  
  
  # Important Info:
