@@ -1,5 +1,8 @@
 # Front-End-Web Development-Things
- REdot GAMES
+
+Read till end.
+
+# REdot GAMES
  1.  I have created a Webpage named  REdot GAMES using HTML, CSS, Javascipt and Bootstrap.
  2. This Webpage is mainly focused on Four Things that i have integrated in this Webpage.
  3. There is a 4 Challenges namely : Challenge 1: Your Age in Days
@@ -20,7 +23,12 @@
   templates for typography, forms, buttons, navigation, and other interface components.
  * All of the above Games functions are coded in Javascript. 
  
- I have Done this Webpage to show my work on Front-end Web development and Javascript with which I created a Fully Responsive Webpage.
+ # I have Done this Webpage to show my work on Front-end Web development and Javascript with which I created a Fully Responsive Webpage.
+ 
+ 
+ # Important Info:
+ If anyone get issues running this webpage. Try to Run on Google Chrome and try to run Webpages seperately if page does not responds.
+Run index.html file and see if Action menu link redirects to a new webpage if not then run Action.html file separately to see the contents.
  
  Thank You.
  
