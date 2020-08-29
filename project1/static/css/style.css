@@ -1,0 +1,53 @@
+.container-1, .container-2, .container-3, .container-4 {
+    border: 1px solid black;
+    margin: 50 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color {
+    display: flex;   /*activates the div to become a flex-box, then item inside it becomes flex item*/
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flex-box-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(255, 0, 21, 0.7);
+}
+
+.card-body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRI9y5yHhqqQr8wqD91O3pwgHQcamKnhR9EJg&usqp=CAU);
+    color: cyan;
+    font: bold;
+}
+
+.nav-item a {
+    color: red;
+    /* font-style: normal; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.page-footer {
+    background-color: black;
+    color: white;
+}
+
+.col-md-3 a {
+    color: rgba(0, 255, 234, 0.74);
+}

@@ -1,0 +1,238 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../project1/static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Javascript on its peek</title>
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-dark bg-danger">
+    <a class="navbar-brand" href="C:\Users\MANIKANTA\Desktop\FDThings\Javascript\project1\index.html">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBRtvTwdrupwWco_Fv94SiR_FbGw89T3BTlA&usqp=CAU" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      REdot GAMES
+    </a>
+  </nav>
+    <nav class="navbar navbar-dark bg-Dark">
+        <a class="navbar-brand">EXPLORE AR/VR GAMES</a>
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXvtFZt53Ri_zc1XWpocDtQL8g7kDOI1wy3Q&usqp=CAU" style="display:inline;" alt=""> -->
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+       <br>
+       <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <h6 class="nav-link">GAMES</h6>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="C:\Users\MANIKANTA\Desktop\FDThings\Javascript\project1\Action.html">Action</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Simulation games</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Puzzles</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Brain teasers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Adventures</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Rule the arcade</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Pre-registration games</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Offline games</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Abstract graphics</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Editor's choice</a>
+        </li>
+      </ul>
+
+      <div class="card text-center">
+        <div class="card-header">
+          Featured Games
+        </div>
+        <div class="card-body">
+            <img src="https://itserbia.info/wp-content/uploads/arvr-logo.jpg" width="70" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+          <h4 class="card-title">AR & VR Games Releasing Soon</h4>
+          <h6>STAY TUNNED!!</h6>
+          <p class="card-text">We will be bringing more Exciting Games for you guys. If you want to be the first person to enjoy
+              AR & VR Games, 
+              Set Remainder below to get notifications and latest games updates.</p>
+          <button class="btn btn-danger">Set Remainder</button>
+        </div>
+        <div class="card-footer text-muted">
+          Exciting Games below
+        </div>
+      </div>
+
+    
+    <div class="container-1">
+        <h2>Challenge 1: Your Age in Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result">
+
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="container-2">
+        <h2>Challenge 2: Gif Generator</h2>
+        <button class="btn btn-success" id="gif-generator" onclick="generateGif()">Generate Gif</button>
+
+        <div class="flex-box-container-2" id="flex-gif-gen">
+    
+        </div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challenge 3: Rock - Paper - Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="../project1/static/images/rock.png" height="180" width="150" alt="" onclick="rpsGame(this)">
+            <img id="paper" src="../project1/static/images/paper.png" height="180" width="150" alt="" onclick="rpsGame(this)">
+            <img id="scissor" src="../project1/static/images/scissor.png" height="180" width="150" alt="" onclick="rpsGame(this)">
+            
+        </div>
+    </div>
+
+    <div class="container-4">
+      <h2 id="change-my-color">Challenge 4: Changing the Color of All Buttons</h2>
+      <div class="flex-box-pick-color">
+        <form action="">
+          <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+            <option value="random">Random</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="reset">Reset</option>
+          </select>
+        </form>
+
+        <button class="btn btn-primary">facebook</button>
+        <button class="btn btn-danger">Yahoo!</button>
+        <button class="btn btn-warning">Google</button>
+        <button class="btn btn-success">Instagram</button>
+      </div>
+    </div>
+    <br>
+    <nav aria-label="...">
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <span class="page-link">Previous</span>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="C:\Users\MANIKANTA\Desktop\FDThings\Javascript\project1\index.html">1</a></li>
+        <li class="page-item">
+          <a class="page-link" href="C:\Users\MANIKANTA\Desktop\FDThings\Javascript\project1\Action.html">2</a></li>
+        <li class="page-item">
+          <a class="page-link" href="C:\Users\MANIKANTA\Desktop\FDThings\Javascript\project1\Action.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">REdot GAMES</h5>
+        <p>Contact Us </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Connect to</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Facebook</a>
+          </li>
+          <li>
+            <a href="#!">Twitter</a>
+          </li>
+          <li>
+            <a href="#!">Instagram</a>
+          </li>
+          <li>
+            <a href="#!">Online Games</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">About</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Creators</a>
+          </li>
+          <li>
+            <a href="#!">SUPPORT US</a>
+          </li>
+          <li>
+            <a href="#!">Contriute</a>
+          </li>
+          <li>
+            <a href="#!">Xbox Connect</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright
+    <a href="C:\Users\MANIKANTA\Desktop\FDThings\Javascript\project1\index.html"></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    
+    
+    <script src="../project1/static/js/script.js"></script>
+</body>
+</html>
