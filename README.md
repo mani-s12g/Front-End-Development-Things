@@ -23,7 +23,7 @@ Read till end.
   templates for typography, forms, buttons, navigation, and other interface components.
  * All of the above Games functions are coded in Javascript. 
  
- ## I have Done this Webpage to show my work on Front-end Web development and Javascript with which I created a Fully Responsive Webpage.
+ I have Done this Webpage to show my work on Front-end Web development and Javascript with which I created a Fully Responsive Webpage.
  
  
  # Important Info:
@@ -32,4 +32,4 @@ Run index.html file and see if Action menu link redirects to a new webpage if no
  
  Thank You.
  
- Manikanta S
+ Manikanta.S
